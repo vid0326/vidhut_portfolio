@@ -902,6 +902,32 @@ section{
     width: 100px;
     height: 100px;
   }
+  footer {
+    /* Reduce padding on the sides for smaller screens */
+    padding: 60px 20px 20px 20px;
+  }
+
+  .footer-section {
+    /* Center the text in each stacked column */
+    text-align: center;
+  }
+
+  .footer-section ul {
+    /* Reset padding for the centered lists */
+    padding-left: 0;
+  }
+
+  .social-links {
+    /* Center the social media icons container */
+    justify-content: center;
+  }
+
+  .footer-bottom p {
+    /* Stack the copyright and designed by text */
+    display: block;
+    margin-bottom: 10px;
+  }
+  
 }
 body::-webkit-scrollbar {
   display: none;
